@@ -43,7 +43,7 @@ water2=loadImage("images/water2.png");
 
 
     Hy=loadImage("images/Hydrogen.jpg");
-//group 1
+/*//group 1
     Li=loadImage("images/Lithium.jpg");
     Sodium=loadImage("images/Sodium.jpg");
     K=loadImage("images/potassium.jpg");
@@ -157,7 +157,7 @@ Kr=loadImage("images/Kr.jpg");
 //Xe=loadImage("images/Xe.jpg");
 Rn=loadImage("images/Rn.jpg");
 Og=loadImage("images/Og.jpg");
-Lid=loadImage("images/Lid.jpg")
+Lid=loadImage("images/Lid.jpg")*/
 }
 
 function setup(){
@@ -317,7 +317,7 @@ if((alum.isTouching(Box1)&&oxygen2.isTouching(Box2))||alum2.isTouching(Box2)&&ox
      drawSprites();
     }
 
-if(gamest==2){
+/*if(gamest==2){
     background(65,68,94);
     react.hide();
     game.hide();
@@ -361,7 +361,7 @@ console.log("Heyy")
         d.visible=true;
          }*/
         
-        Sod=createSprite(displayWidth/11,displayHeight/3.75);
+     /*   Sod=createSprite(displayWidth/11,displayHeight/3.75);
          Sod.addImage(Sodium);
          Sod.scale=0.8;
 
@@ -697,12 +697,12 @@ Ogna=createSprite(displayWidth/1.223,displayHeight/1.835);
 Ogna.addImage(Og);
 Ogna.scale=0.8;
 
-
+*/
 
     drawSprites();
 
 }
- if(gamest==3){
+/* if(gamest==3){
 
 background("yellow");
 react.hide();
@@ -723,7 +723,7 @@ game = new Game();
      game.end();
    }
  }
-
+*/
 }//end of draw function
 
 
